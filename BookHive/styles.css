@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: bisque;
+}
+    
+.navBar{
+    padding: 10px;
+    background-color: #FD6569;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.book-container h1{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.container{
+    padding: 10px;
+}
+.book-container{
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h1{
+    color: #FD6569;
+}
+.book-container h2{
+    padding-top: 10px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.book-container p{
+    padding-top: 10px;
+}
+.book-container button{
+    background-color: #FD6569;
+    padding: 2px 10px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+}
+.add-btn{
+    background-color: #FD6569;
+    color: black;
+    border-radius: 100%;
+    padding: 20px 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    background-color: #FD6569;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    z-index: 3;
+    display: none;
+}
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 3px solid black;
+}
+.popup-box textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 20px;
+    border: 3px solid black;
+}
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+.popup-box button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+.popup-box input:focus{
+    outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+}
